@@ -1,0 +1,12 @@
+# Sauvegardes locales (ne pas publier)
+index_original_backup.html
+*_backup.html
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/

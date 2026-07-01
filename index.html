@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Arc">
+<meta name="theme-color" content="#F5F6F8">
+<meta name="description" content="Arc — carnet d'entraînement premium : suivi série par série, génération de séances et statistiques.">
+<title>Arc</title>
+
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<!-- Écrans de lancement iOS (mode plein écran depuis l'écran d'accueil) -->
+<link rel="apple-touch-startup-image" media="screen and (device-width:430px) and (device-height:932px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait)" href="splash-1290x2796.png">
+<link rel="apple-touch-startup-image" media="screen and (device-width:428px) and (device-height:926px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait)" href="splash-1284x2778.png">
+<link rel="apple-touch-startup-image" media="screen and (device-width:393px) and (device-height:852px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait)" href="splash-1179x2556.png">
+<link rel="apple-touch-startup-image" media="screen and (device-width:390px) and (device-height:844px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait)" href="splash-1170x2532.png">
+<link rel="apple-touch-startup-image" media="screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait)" href="splash-1125x2436.png">
+<link rel="apple-touch-startup-image" media="screen and (device-width:414px) and (device-height:896px) and (-webkit-device-pixel-ratio:3) and (orientation:portrait)" href="splash-1242x2688.png">
+<link rel="apple-touch-startup-image" media="screen and (device-width:414px) and (device-height:896px) and (-webkit-device-pixel-ratio:2) and (orientation:portrait)" href="splash-828x1792.png">
+<link rel="apple-touch-startup-image" media="screen and (device-width:375px) and (device-height:667px) and (-webkit-device-pixel-ratio:2) and (orientation:portrait)" href="splash-750x1334.png">
+
+<!-- Typographie : Plus Jakarta Sans (variable). Voir README pour passer à Satoshi self-hosted. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..700&display=swap">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <header class="top" id="top">
+    <div class="top-row">
+      <div class="brand">
+        <span class="logo" id="logo"></span>
+        <div class="brand-tx"><div class="bt">Arc</div><div class="bs" id="brand-sub">Ton entraînement</div></div>
+      </div>
+      <button class="icon-btn" id="btn-settings" aria-label="Réglages"></button>
+    </div>
+    <div id="hdr"></div>
+  </header>
+  <main id="main"></main>
+  <nav class="bnav" id="nav"></nav>
+</div>
+
+<!-- Wheel picker sheet -->
+<div class="sheet-bg" id="pick-bg"></div>
+<div class="sheet pick" id="pick">
+  <div class="grip"></div>
+  <div class="pick-head"><div class="pick-title" id="pick-title">Série</div><div class="pick-sub" id="pick-sub"></div></div>
+  <div class="pick-wheels" id="pick-wheels"></div>
+  <button class="btn" id="pick-ok">Confirmer</button>
+</div>
+
+<!-- Generic sheet -->
+<div class="sheet-bg" id="sheet-bg"></div>
+<div class="sheet" id="sheet"><div class="grip"></div><div id="sheet-c"></div></div>
+
+<div class="ac" id="ac"></div>
+<div class="toast" id="toast"></div>
+<canvas id="confetti"></canvas>
+
+<script src="app.js"></script>
+</body>
+</html>
