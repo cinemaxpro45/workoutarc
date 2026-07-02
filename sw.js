@@ -1,5 +1,14 @@
 /* Arc service worker — offline app shell + runtime font cache */
-const CACHE = 'arc-v2-3';
+const CACHE = 'arc-v3-2';
+const EXO = [
+  'developpe-couche-barre','developpe-incline-halteres','developpe-militaire','developpe-machine',
+  'dips-lestes','ecartes-halteres','elevations-laterales','extension-triceps-corde','barre-au-front',
+  'tractions','tirage-vertical','rowing-barre','rowing-t-bar','tirage-horizontal',
+  'curl-barre','curl-incline-halteres','curl-marteau','oiseau-rear-delt','face-pull',
+  'squat-barre','presse-a-cuisses','fentes-halteres','souleve-de-terre-roumain',
+  'leg-curl','leg-extension','hip-thrust','mollets-debout',
+  'releve-de-jambes','crunch-cable','gainage','barre','default'
+];
 const SHELL = [
   './',
   './index.html',
@@ -9,7 +18,8 @@ const SHELL = [
   './favicon.png',
   './icon-192.png',
   './icon-512.png',
-  './apple-touch-icon.png'
+  './apple-touch-icon.png',
+  ...EXO.map(s => './img/exercises/' + s + '.svg')
 ];
 
 self.addEventListener('install', e => {

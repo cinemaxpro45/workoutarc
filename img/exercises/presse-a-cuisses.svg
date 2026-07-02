@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><defs>
+<linearGradient id="met" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4F6FA"/><stop offset=".45" stop-color="#C6CCD9"/><stop offset="1" stop-color="#8E95A6"/></linearGradient>
+<linearGradient id="stl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4C5263"/><stop offset="1" stop-color="#252935"/></linearGradient>
+<linearGradient id="rub" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3B4152"/><stop offset=".5" stop-color="#242836"/><stop offset="1" stop-color="#161922"/></linearGradient>
+<linearGradient id="pad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3cb7f0"/><stop offset="1" stop-color="#0d7aae"/></linearGradient>
+<radialGradient id="pl" cx=".36" cy=".3" r="1"><stop offset="0" stop-color="#68c7f3"/><stop offset=".55" stop-color="#0BA5EC"/><stop offset="1" stop-color="#0e6b99"/></radialGradient>
+<linearGradient id="plv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#59c2f2"/><stop offset=".5" stop-color="#0BA5EC"/><stop offset="1" stop-color="#0e71a1"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".45" r=".62"><stop offset="0" stop-color="#0BA5EC" stop-opacity=".17"/><stop offset="1" stop-color="#0BA5EC" stop-opacity="0"/></radialGradient>
+<radialGradient id="shd" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#12141C" stop-opacity=".2"/><stop offset=".65" stop-color="#12141C" stop-opacity=".08"/><stop offset="1" stop-color="#12141C" stop-opacity="0"/></radialGradient>
+</defs><ellipse cx="60" cy="54" rx="55" ry="47" fill="url(#glow)"/><ellipse cx="60" cy="101" rx="46" ry="7" fill="url(#shd)"/>
+<path d="M18 96 L64 96 L30 66 Z" fill="url(#stl)"/>
+<rect x="24" y="70" width="30" height="10" rx="5" transform="rotate(-8 39 75)" fill="url(#pad)"/>
+<g transform="rotate(42 78 62)"><rect x="60" y="58" width="7" height="46" rx="3.4" fill="url(#met)"/></g>
+<g transform="translate(84 40) rotate(48)"><rect x="-7" y="-21" width="13" height="42" rx="5.5" fill="url(#rub)"/><rect x="-4.6" y="-18" width="4" height="36" rx="2" fill="#fff" opacity=".08"/></g>
+<g transform="translate(70 52) rotate(48)"><rect x="-4" y="-17" width="8" height="34" rx="3.4782608695652177" fill="url(#plv)"/><rect x="-2.4" y="-14.62" width="2.08" height="29.24" rx="1.04" fill="#fff" opacity=".16"/></g>
+<g transform="translate(61 60) rotate(48)"><rect x="-3.4" y="-13" width="6.6" height="26" rx="2.869565217391304" fill="url(#plv)"/><rect x="-2.08" y="-11.18" width="1.716" height="22.36" rx="0.858" fill="#fff" opacity=".16"/></g></svg>

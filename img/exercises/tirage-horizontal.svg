@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><defs>
+<linearGradient id="met" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4F6FA"/><stop offset=".45" stop-color="#C6CCD9"/><stop offset="1" stop-color="#8E95A6"/></linearGradient>
+<linearGradient id="stl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4C5263"/><stop offset="1" stop-color="#252935"/></linearGradient>
+<linearGradient id="rub" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3B4152"/><stop offset=".5" stop-color="#242836"/><stop offset="1" stop-color="#161922"/></linearGradient>
+<linearGradient id="pad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3fc58e"/><stop offset="1" stop-color="#108558"/></linearGradient>
+<radialGradient id="pl" cx=".36" cy=".3" r="1"><stop offset="0" stop-color="#6ad2a8"/><stop offset=".55" stop-color="#0FB672"/><stop offset="1" stop-color="#107550"/></radialGradient>
+<linearGradient id="plv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5ccd9f"/><stop offset=".5" stop-color="#0FB672"/><stop offset="1" stop-color="#107c53"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".45" r=".62"><stop offset="0" stop-color="#0FB672" stop-opacity=".17"/><stop offset="1" stop-color="#0FB672" stop-opacity="0"/></radialGradient>
+<radialGradient id="shd" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#12141C" stop-opacity=".2"/><stop offset=".65" stop-color="#12141C" stop-opacity=".08"/><stop offset="1" stop-color="#12141C" stop-opacity="0"/></radialGradient>
+</defs><ellipse cx="60" cy="54" rx="55" ry="47" fill="url(#glow)"/><ellipse cx="60" cy="101" rx="44" ry="7" fill="url(#shd)"/>
+<rect x="10" y="60" width="12" height="36" rx="4" fill="url(#stl)"/>
+<circle cx="16" cy="68" r="4.8" fill="url(#met)"/><circle cx="16" cy="68" r="1.8" fill="#252935"/>
+<line x1="20" y1="68" x2="64" y2="72" stroke="#39404F" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="20" y1="68" x2="64" y2="72" stroke="#9AA2B5" stroke-width=".8" stroke-linecap="round"/>
+<path d="M66 64 v16 M66 64 l10 -5 M66 80 l10 5" fill="none" stroke="url(#met)" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="84" y="76" width="26" height="9" rx="4.5" fill="url(#pad)"/>
+<rect x="93" y="85" width="5" height="12" rx="2.4" fill="url(#stl)"/>
+<rect x="85" y="96.4" width="21" height="3.6" rx="1.8" fill="url(#stl)"/></svg>

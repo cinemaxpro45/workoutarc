@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><defs>
+<linearGradient id="met" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4F6FA"/><stop offset=".45" stop-color="#C6CCD9"/><stop offset="1" stop-color="#8E95A6"/></linearGradient>
+<linearGradient id="stl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4C5263"/><stop offset="1" stop-color="#252935"/></linearGradient>
+<linearGradient id="rub" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3B4152"/><stop offset=".5" stop-color="#242836"/><stop offset="1" stop-color="#161922"/></linearGradient>
+<linearGradient id="pad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#58a6fb"/><stop offset="1" stop-color="#266bb7"/></linearGradient>
+<radialGradient id="pl" cx=".36" cy=".3" r="1"><stop offset="0" stop-color="#7dbafc"/><stop offset=".55" stop-color="#2E90FA"/><stop offset="1" stop-color="#235ea1"/></radialGradient>
+<linearGradient id="plv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#71b4fc"/><stop offset=".5" stop-color="#2E90FA"/><stop offset="1" stop-color="#2463aa"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".45" r=".62"><stop offset="0" stop-color="#2E90FA" stop-opacity=".17"/><stop offset="1" stop-color="#2E90FA" stop-opacity="0"/></radialGradient>
+<radialGradient id="shd" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#12141C" stop-opacity=".2"/><stop offset=".65" stop-color="#12141C" stop-opacity=".08"/><stop offset="1" stop-color="#12141C" stop-opacity="0"/></radialGradient>
+</defs><ellipse cx="60" cy="54" rx="55" ry="47" fill="url(#glow)"/><ellipse cx="60" cy="101" rx="40" ry="7" fill="url(#shd)"/>
+<rect x="24" y="22" width="5.4" height="74" rx="2.6" fill="url(#stl)"/>
+<rect x="90.6" y="22" width="5.4" height="74" rx="2.6" fill="url(#stl)"/>
+<rect x="18" y="96.4" width="18" height="3.6" rx="1.8" fill="url(#stl)"/>
+<rect x="84" y="96.4" width="18" height="3.6" rx="1.8" fill="url(#stl)"/>
+<rect x="22" y="18" width="76" height="6.4" rx="3.2" fill="url(#met)"/>
+<rect x="25" y="19.3" width="70" height="1.6" rx=".8" fill="#fff" opacity=".42"/>
+<path d="M60 32 v22" stroke="#39404F" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M60 54 C 60 64, 70 68, 80 68" fill="none" stroke="url(#plv)" stroke-width="7" stroke-linecap="round"/>
+<path d="M80 52 C 74 58, 72 64, 74 70" fill="none" stroke="#9AA2B5" stroke-width="2" stroke-dasharray="1.5 4" stroke-linecap="round" opacity=".7"/></svg>
